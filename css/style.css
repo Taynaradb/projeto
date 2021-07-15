@@ -1,0 +1,71 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Roboto', sans-serif;
+  }
+
+/* ####################################################################################################### 
+header starts */
+
+.sliders, .sliders img{
+    background-size: cover;
+    height: 100vh;
+    text-align: center;
+    
+}
+
+.pinkbg{
+    background-color: #f09ead;
+}
+
+.btnPink, .btn:hover,.btn:focus,.btn:active, 
+.btn:active:focus:not(:disabled):not(.disabled),
+.btn:focus, .btn:active, .btn:hover{
+background-color: #f09ead !important;
+box-shadow: none!important;
+outline: 0;
+border-color: none;
+}
+
+.btn-primary:hover,.btn-primary:focus,.btn-primary:active, 
+.btn-primary:active:focus:not(:disabled):not(.disabled),
+.btn:focus, .btn:active, .btn:hover{
+    box-shadow: none!important;
+    outline: 0;
+}
+
+
+.txtWithBgColor a, .txtWithBgColor a:hover{
+    text-decoration: none;
+    color: #fff;
+    text-transform: uppercase;
+}
+
+/*#######################################################################################################
+header finished */
+
+/*#######################################################################################################
+navbar */
+
+.sticky{
+    position: sticky;
+    top: 0;
+}
+
+/*#######################################################################################################
+navbar*/
+
+.card{
+    box-shadow: rgba(0, 0, 0, 0.05) 0px 6px 24px 0px, rgba(0, 0, 0, 0.08) 0px 0px 0px 1px;
+}
+
+.card img {
+    filter: none;
+    -webkit-filter: grayscale(0);
+}
+
+.card img:hover {
+    filter: grayscale(100%);
+    -webkit-filter: grayscale(100%);
+}
