@@ -10,10 +10,12 @@
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@500&display=swap" rel="stylesheet">
-    <link href="img/slides/first.jpg" rel="shortcut icon">
+    <link href="img/favicon.png" rel="shortcut icon">
     <link rel="stylesheet" href="css/style.css">
     <link rel="stylesheet" href="bootstrap/css/bootstrap.css">
 </head>
+
+
 
 <body>
     <header>
@@ -27,14 +29,15 @@
                 </div>
                 <div class="carousel-inner">
                     <div class="carousel-item active" data-bs-interval="10000">
-                        <img height="850" src="img/slides/second.jpg" class="d-block w-100" alt="...">
+                        <img src="img/slides/bg.png" class="d-block w-100" alt="...">
                         <div class="carousel-caption d-none d-md-block">
                             <h5>First slide label</h5>
-                            <p>Some representative placeholder content for the first slide.</p>
+                            <p>Some representative placeholder content for the first slide.
+                            </p>
                         </div>
                     </div>
                     <div class="carousel-item" data-bs-interval="2000">
-                        <img height="650" src="img/slides/first.jpg" class="d-block w-100" alt="...">
+                        <img height="650" src="" class="d-block w-100" alt="...">
                         <div class="carousel-caption d-none d-md-block">
                             <h5>Second slide label</h5>
                             <p>Some representative placeholder content for the second slide.</p>
@@ -56,25 +59,23 @@
     </header>
 
     <div class="sticky">
-        <nav class="navbar navbar-expand-lg pinkbg txtWithBgColor">
+
+        <nav class="navbar navbar-expand-lg navbar-dark pinkbg txtWithBgColor">
             <div class="container">
                 <a class="navbar-brand" href="#">Navbar</a>
-                <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav"
-                    aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
-                    <span class="navbar-toggler-icon"></span>
+                <button class="navbar-toggler" type="button" data-bs-toggle="collapse"
+                    data-bs-target="#navbarNavAltMarkup" aria-controls="navbarNavAltMarkup" aria-expanded="false"
+                    aria-label="Toggle navigation">
+                    <span class="navbar-toggler-icon">
+                    </span>
                 </button>
-                <div class="d-flex justify-content-end collapse navbar-collapse" id="navbarNav">
-                    <ul class="navbar-nav">
-                        <li class="nav-item active">
-                            <a class="nav-link" href="#">Home </a>
-                        </li>
-                        <li class="nav-item">
-                            <a class="nav-link" href="#">Features</a>
-                        </li>
-                        <li class="nav-item">
-                            <a class="nav-link" href="#">Pricing</a>
-                        </li>
-                    </ul>
+                <div class="collapse navbar-collapse text-center justify-content-lg-end" id="navbarNavAltMarkup">
+                    <div class="navbar-nav">
+                        <a class="nav-link text-white" href="projeto.php">Projeto</a>
+                        <a class="nav-link text-white" href="#leis">Direitos & Leis</a>
+                        <a class="nav-link text-white" href="campanha.php">Campanha 2021</a>
+                        <a class="nav-link text-white" href="contato.php">Contato</a>
+                    </div>
                 </div>
             </div>
         </nav>
@@ -115,18 +116,20 @@
         </div>
     </div>
 
-    <div style="height: 30rem; background-image: url('img/slides/header2.jpg');" class="home mt-5 text-center d-flex justify-content-center align-items-center lightbg">
+
+    <!-- <div style="height: 30rem; background-image: url('img/slides/header2.jpg');" class="home mt-5 text-center d-flex justify-content-center align-items-center lightbg">
         <div class="mt-5 txtWithBgColor">
             <a class="fs-3">Lorem ipsum dolor sit</a>
                 
             </div>
         </div>
-    </div>
+    </div> 
 
-    <div style="height: 30rem;" class="container home mt-5 text-center d-flex justify-content-center align-items-center">
+    <div style="height: 30rem;"
+        class="container home mt-5 text-center d-flex justify-content-center align-items-center">
         <div class="row">
             <div class="col-sm-4">
-                <div class="card" style="width: 18rem;">
+                <div class="card" style="width: 16rem;">
                     <img src="img/noticia/new.png" class="card-img-top" alt="...">
                     <div class="card-body">
                         <h5 class="card-title">Special title treatment</h5>
@@ -136,18 +139,18 @@
                 </div>
             </div>
             <div class="col-sm-4">
-                <div class="card" style="width: 18rem;"> 
-                    <img  src="img/noticia/new.png" class="card-img-top" alt="...">
-                    <div class="card-body">
+                <div class="card" style="width: 16rem;">
+                    <img src="img/noticia/new.png" class="card-img-top" alt="...">
+                    <div class="card-body txtWithBgColor">
                         <h5 class="card-title">Special title treatment</h5>
                         <p class="card-text">With supporting text below as a natural lead-in to additional content.</p>
-                        <a href="#" class="btn btn-primary">Go somewhere</a>
+                        <a href="#" class="btn btn-primary text-white">Go somewhere</a>
                     </div>
                 </div>
             </div>
             <div class="col-sm-4">
-                <div class="card" style="width: 18rem;">
-                    <img  src="img/noticia/new.png" class="card-img-top" alt="...">
+                <div class="card" style="width: 16rem;">
+                    <img src="img/noticia/new.png" class="card-img-top" alt="...">
                     <div class="card-body">
                         <h5 class="card-title">Special title treatment</h5>
                         <p class="card-text">With supporting text below as a natural lead-in to additional content.</p>
@@ -156,115 +159,193 @@
                 </div>
             </div>
         </div>
-    </div>
+    </div> -->
 
 
-    <div style="height: 30rem;" class="home mt-5 text-center d-flex justify-content-center align-items-center lightbg">
+    <div style="min-height: 30rem;"
+        class="home mt-5 text-center d-flex justify-content-center align-items-center lightbg">
         <div class="mt-5 txtWithBgColor">
             <a class="fs-4">Quanto ajudamos & contando.. </a>
             <div class="mt-5 container">
                 <div class="row m-5">
-                    <div class="col">
+                    <div
+                        class="col-12 col-xs-12 col-sm-6 col-md-4 col-lg-3 col-xl-3 mb-4 d-flex justify-content-center">
                         <div class="ms-3 rounded-circle card d-flex justify-content-center align-items-center"
-                            style="width: 12rem; height: 12rem;">
-                            <div class="employees mt-3">
-                                <p class="fs-3 counter-count">73</p>
+                            style="min-width: 12rem; min-height: 12rem;">
+                            <div class="employees">
+                                <p class="fs-3 counter" style="margin: 0;padding: 0;" data-target="1600"></p>
+                                <p style="margin: 0;padding: 0;">Toneladas de <br> alimentos doados</p>
                                 <img src="img/counter/ton.png" alt="">
                             </div>
                         </div>
-                        <p class="fs-5 shadow pinkbg text-white mt-4"> Toneladas de alimentos doados</p>
                     </div>
-                    <div class="col">
+                    <div
+                        class="col-12 col-xs-12 col-sm-6 col-md-4 col-lg-3 col-xl-3 mb-4 d-flex justify-content-center">
                         <div class="ms-3 shadow-none rounded-circle card d-flex justify-content-center align-items-center"
-                            style="width: 12rem; height: 12rem;">
-                            <div class="customer mt-3">
-                                <p class="fs-3 counter-count">8000</p>
+                            style="min-width: 12rem; min-height: 12rem;">
+                            <div class="customer">
+                                <p class="fs-3 counter" style="margin: 0;padding: 0;" data-target="8000"></p>
+                                <p style="margin: 0;padding: 0;"> Pessoas na<br>caminhada</p>
                                 <img src="img/counter/caminhada.png" alt="">
                             </div>
                         </div>
-                        <p class="fs-5 shadow pinkbg text-white mt-4"> Pessoas na<br>caminhada</p>
                     </div>
-                    <div class="col">
+                    <div
+                        class="col-12 col-xs-12 col-sm-6 col-md-4 col-lg-3 col-xl-3 mb-4 d-flex justify-content-center">
                         <div class="ms-3 rounded-circle card d-flex justify-content-center align-items-center"
-                            style="width: 12rem; height: 12rem;">
-                            <div class="design mt-3">
-                                <p class="fs-3 counter-count">6000</p>
+                            style="min-width: 12rem; min-height: 12rem;">
+                            <div class="design">
+                                <p class="fs-3 counter" style="margin: 0;padding: 0;" data-target="1000"></p>
+                                <p style="margin: 0;padding: 0;"> Mamografias<br>realizadas</p>
                                 <img src="img/counter/mama.png" alt="">
                             </div>
                         </div>
-                        <p class="fs-5 shadow pinkbg text-white mt-4"> Mamografias<br>realizadas</p>
                     </div>
-                    <div class="col">
+                    <div
+                        class="col-12 col-xs-12 col-sm-6 col-md-4 col-lg-3 col-xl-3 mb-4 d-flex justify-content-center">
                         <div class="ms-3 shadow-none rounded-circle card d-flex justify-content-center align-items-center"
-                            style="width: 12rem; height: 12rem;">
-                            <div class="order mt-3">
-                                <p class="fs-3 counter-count">600</p>
+                            style="min-width: 12rem; min-height: 12rem;">
+                            <div class="order" id="leis">
+                                <p class="fs-3 counter" style="margin: 0;padding: 0;" data-target="600"></p>
+                                <p style="margin: 0;padding: 0;"> Papanicolau <br>realizadas</p>
                                 <img src="img/counter/papa.png" alt="">
                             </div>
                         </div>
-                        <p class="fs-5 shadow pinkbg text-white mt-4"> Papanicolau <br>realizadas</p>
                     </div>
                 </div>
             </div>
         </div>
     </div>
 
-    <div class="home mt-5 text-center d-flex justify-content-center">
-        <div class="mt-5">
-            <h3>Nossos Apoiadores</h3>
-            <div class="mt-5 container">
-                <div class="row m-5">
-                    <div class="col">
-                        <div class="card" style="width: 12rem;">
-                            <img src="img/apoiadores/ameripan-logo.png" class="card-img-top" alt="...">
+    <div class="container mt-5">
+        <h3 class="mb-5 text-center">Leis & Direitos</h3>
+        <ul class="nav nav-tabs">
+            <li class="nav-item">
+                <a class="nav-link active" data-bs-toggle="tab" href="#mario">
+                    Lei Mario Covas</a>
+            </li>
+            <li class="nav-item">
+                <a class="nav-link" data-bs-toggle="tab" href="#atlas">
+                    O Altas do Câncer</a>
+            </li>
+        </ul>
+        <div class="tab-content">
+            <div class="tab-pane active" id="mario">
+                <div class="row border g-0 rounded shadow-sm">
+                    <div class="col p-4">
+                        <h5 class="card-title">Lei Mario Covas</h5>
+                        <p class="card-text lh-lg">Lei 10241/99 | Lei nº 10.241, de 17 de Março de 1999 de São Paulo
+                            Dispõe sobre os direitos dos <br> usuários dos serviços e das ações de saúde no Estado e dá
+                            outras providências</p>
+
+                        <div class="txtWithBgColor">
+                            <a href="https://www.rosadobem.com.br/painel/dashboard/uploads/arquivos/LeiMarioCovas.pdf"
+                                class="btn btnPink">Saiba mais!</a>
                         </div>
                     </div>
-                    <div class="col">
-                        <div class="card" style="width: 12rem;">
-                            <img src="img/apoiadores/vox90.jpg" class="card-img-top" alt="...">
+
+                </div>
+            </div>
+            <div class="tab-pane" id="atlas">
+                <div class="row border g-0 rounded shadow-sm">
+                    <div class="col p-4">
+                        <h5 class="card-title">O Altas do Câncer</h5>
+                        <p class="card-text lh-lg">O Atlas é uma iniciativa conjunta da Sociedade Americana do Câncer,
+                            da União
+                            Internacional contra o Câncer (UICC) e da Agência Internacional da Organização Mundial da
+                            Saúde
+                            para a Investigação do Câncer (IARC) e foi produzido com o objetivo de melhorar as consultas
+                            e
+                            os tratamentos, assim como proporcionar uma visão geral da doença através das informações
+                            recolhidas em 185 países.</p>
+                        <div class="txtWithBgColor">
+                            <a href="https://www.rosadobem.com.br/painel/dashboard/uploads/arquivos/Atlas%20do%20Ca%CC%82ncer_PT_BR.pdf"
+                                class="btn btnPink">Saiba mais!</a>
                         </div>
                     </div>
-                    <div class="col">
-                        <div class="card" style="width: 12rem;">
-                            <img style="height: 12rem;" src="img/apoiadores/hospital.png" class="card-img-top"
-                                alt="...">
-                        </div>
-                    </div>
-                    <div class="col">
-                        <div class="card" style="width: 12rem;">
-                            <img src="img/apoiadores/liberal-logo.png" class="card-img-top" alt="...">
-                        </div>
+
+                </div>
+            </div>
+        </div>
+    </div>
+
+
+
+    <div class="home mt-5 mb-5 d-flex justify-content-center">
+        <div class="mt-5 container">
+            <h3 class="mb-5 text-center">Nossos apoiadores</h3>
+            <div class="row mt-5">
+                <div
+                    class="col-12 col-xs-12 col-sm-6 col-md-4 col-lg-3 col-xl-3 col-xxl-2 mb-4 d-flex justify-content-center">
+                    <div class="card" style="width: 12rem;">
+                        <img src="img/apoiadores/ameripan-logo.png" class="card-img-top" alt="...">
                     </div>
                 </div>
-                <div class="row m-5">
-                    <div class="col">
-                        <div class="card" style="width: 12rem;">
-                            <img style="height: 12rem;" src="img/apoiadores/logo-fundo-solidariedade-logo.jpeg"
-                                class="card-img-top" alt="...">
-                        </div>
+                <div
+                    class="col-12 col-xs-12 col-sm-6 col-md-4 col-lg-3 col-xl-3 col-xxl-2 mb-4 d-flex justify-content-center">
+                    <div class="card" style="width: 12rem;">
+                        <img src="img/apoiadores/vox90.jpg" class="card-img-top" alt="...">
                     </div>
-                    <div class="col">
-                        <div class="card" style="width: 12rem;">
-                            <img src="img/apoiadores/rkm.png" class="card-img-top" alt="...">
-                        </div>
+                </div>
+                <div
+                    class="col-12 col-xs-12 col-sm-6 col-md-4 col-lg-3 col-xl-3 col-xxl-2 mb-4 d-flex justify-content-center">
+                    <div class="card" style="width: 12rem;">
+                        <img style="height: 12rem;" src="img/apoiadores/hospital.png" class="card-img-top" alt="...">
                     </div>
-                    <div class="col">
-                        <div class="card" style="width: 12rem;">
-                            <img style="height: 12rem;" src="img/apoiadores/saolucas.png" class="card-img-top"
-                                alt="...">
-                        </div>
+                </div>
+                <div
+                    class="col-12 col-xs-12 col-sm-6 col-md-4 col-lg-3 col-xl-3 col-xxl-2 mb-4 d-flex justify-content-center">
+                    <div class="card" style="width: 12rem;">
+                        <img src="img/apoiadores/liberal-logo.png" class="card-img-top" alt="...">
                     </div>
-                    <div class="col">
-                        <div class="card" style="width: 12rem;">
-                            <img style="height: 12rem;" src="img/apoiadores/saovicente-logo.png" class="card-img-top"
-                                alt="...">
-                        </div>
+                </div>
+                <div
+                    class="col-12 col-xs-12 col-sm-6 col-md-4 col-lg-3 col-xl-3 col-xxl-2 mb-4 d-flex justify-content-center">
+                    <div class="card" style="width: 12rem;">
+                        <img style="height: 12rem;" src="img/apoiadores/logo-fundo-solidariedade-logo.jpeg"
+                            class="card-img-top" alt="...">
+                    </div>
+                </div>
+                <div
+                    class="col-12 col-xs-12 col-sm-6 col-md-4 col-lg-3 col-xl-3 col-xxl-2 mb-4 d-flex justify-content-center">
+                    <div class="card" style="width: 12rem;">
+                        <img src="img/apoiadores/rkm.png" class="card-img-top" alt="...">
+                    </div>
+                </div>
+                <div
+                    class="col-12 col-xs-12 col-sm-6 col-md-4 col-lg-3 col-xl-3 col-xxl-2 mb-4 d-flex justify-content-center">
+                    <div class="card" style="width: 12rem;">
+                        <img style="height: 12rem;" src="img/apoiadores/saolucas.png" class="card-img-top" alt="...">
+                    </div>
+                </div>
+                <div
+                    class="col-12 col-xs-12 col-sm-6 col-md-4 col-lg-3 col-xl-3 col-xxl-2 mb-4 d-flex justify-content-center">
+                    <div class="card" style="width: 12rem;">
+                        <img style="height: 12rem;" src="img/apoiadores/saovicente-logo.png" class="card-img-top"
+                            alt="...">
                     </div>
                 </div>
             </div>
         </div>
     </div>
 
+    <footer class="mt-5 text-center ">
+        <div class="container pt-4">
+            <h5>Projeto do bem</h5>
+          <section class="mt-3 mb-4">
+            <a><img src="img/footer/facebook.png" alt="facebook"></a>
+            <a ><img src="img/footer/instagram.png" alt=""></a>
+            <a><img src="img/footer/whatsapp.png" alt=""></a>
+            <a ><img src="img/footer/email.png" alt=""></a>
+          </section>
+        </div>
+       
+        <div class="text-center text-dark pinkbg p-3">
+          © 2020 Copyright:
+          <a class="text-dark" href="#">tDb</a>
+        </div>
+      
+      </footer>
 
     <script src="js/js.js"></script>
     <script src="bootstrap/js/bootstrap.js"></script>
